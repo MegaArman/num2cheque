@@ -1,6 +1,6 @@
 {
   "name": "num2cheque",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert a number to words for a cheque",
   "main": "./lib/num2cheque.js",
   "scripts": {
