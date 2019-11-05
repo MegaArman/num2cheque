@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/MegaArman/num2cheque.git"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "cheques",
     "currency",
@@ -28,5 +31,6 @@
     "nyc": "^14.1.1",
     "tap-nyc": "^1.0.3",
     "tape": "^4.11.0"
-  }
+  },
+  "dependencies": {}
 }
