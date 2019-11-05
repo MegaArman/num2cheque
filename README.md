@@ -1,7 +1,7 @@
 # num2cheque
 converts a number to words for a cheque. 
 
-Ex: $123,123,123.12 => "One hundred and twenty-three million, one hundred and twenty-three thousand, one hundred and twenty-three and 12/100"
+Ex: 123123123.12 => "One hundred and twenty-three million, one hundred and twenty-three thousand, one hundred and twenty-three and 12/100"
 
 ## Installation <a name="installation"></a>
 ```
