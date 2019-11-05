@@ -1,0 +1,32 @@
+{
+  "name": "num2cheque",
+  "version": "1.0.0",
+  "description": "convert a number to words for a cheque",
+  "main": "./lib/num2cheque.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --cache ./lib/*.js tests/*.js",
+    "test": "npm run lint && nyc tape tests/*.js | tap-nyc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaArman/num2cheque.git"
+  },
+  "keywords": [
+    "cheques",
+    "currency",
+    "conversion",
+    "currency"
+  ],
+  "author": "Arman Bahraini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MegaArman/num2cheque/issues"
+  },
+  "homepage": "https://github.com/MegaArman/num2cheque#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "nyc": "^14.1.1",
+    "tap-nyc": "^1.0.3",
+    "tape": "^4.11.0"
+  }
+}
